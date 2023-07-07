@@ -62,6 +62,8 @@ def get_filters():
         day = input(f"Try again, Enter day name to filter by {days}").lower()
 
     print('-'*45)
+
+    # return city name,month name and day name
     return city, month, day
 
 
