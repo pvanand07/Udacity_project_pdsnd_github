@@ -270,9 +270,8 @@ def eda(df):
         median_trip_duration_age = df.groupby(['Age_group'])['Trip Duration'].median().fillna('Nill')
         print(f"The median trip duration for different age groups is:\n{median_trip_duration_age}\n")
 
-        # Calculate the correlation between trip duration and age
-        correlation = df['Trip Duration'].corr(df['Age'])
-        print(f"The correlation between trip duration and age is: {correlation}\n")
+        # Calculate and print the correlation between trip duration and age
+        print(f"The correlation between trip duration and age is: {df['Trip Duration'].corr(df['Age'])}\n")
 
     # Print the total time taken
     print(f"This took {time.time() - start_time} seconds.")
