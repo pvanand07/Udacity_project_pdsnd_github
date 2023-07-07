@@ -1,7 +1,7 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Description
-The "Explore US Bikeshare Data" project is aimed at exploring and analyzing bikeshare data from three cities in the United States. The project utilizes Python programming language and provides a user-friendly interface to interact with the data.
+The "Explore US Bikeshare Data" project is aimed at exploring and analyzing bikeshare data from three cities in the United States. The project utilizes Python programming language, librarirs sunch as pandas and numpy and provides a user-friendly interface to interact with the data.
 
 The main functionalities of the project include:
 1. Getting user input to specify the city, month, and day for analysis.
