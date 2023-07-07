@@ -120,6 +120,8 @@ def load_data(city, month, day):
                 break
     
     print('-' * 40)
+
+    # Return pandas dataframe containing filtered city data
     return df
 
 
