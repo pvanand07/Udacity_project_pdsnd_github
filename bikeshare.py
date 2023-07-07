@@ -246,7 +246,8 @@ def eda(df):
     if 'Gender' in df.columns:
         
         # Filter Null values in 'Gender' column
-        df_2 = df.dropna(subset = ['Gender'])
+        df_2 = df.copy() # Make a copy of the original dataframe
+        df_2 = df_2.dropna(subset = ['Gender'])
         
         # Calcuate the median trip duration for different genders
         median_trip_duration_gender = df_2.groupby(['Gender'])['Trip Duration'].median()
